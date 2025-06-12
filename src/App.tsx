@@ -25,13 +25,25 @@ function App() {
                 <Mail className="w-4 h-4 mr-3 flex-shrink-0" />
                 <span className="text-sm">ryanhuang4706@gmail.com</span>
               </div>
-              <div className="flex items-center text-blue-100">
+              {/* Make the LinkedIn line a real link */}
+              <a
+                href="https://www.linkedin.com/in/ryan-huang-9b5045318/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-blue-100 hover:underline"
+              >
                 <Linkedin className="w-4 h-4 mr-3 flex-shrink-0" />
                 <span className="text-sm">LinkedIn Profile</span>
-              </div>
+              </a>
             </div>
           </div>
         </header>
+        {/* ...rest of your component... */}
+      </div>
+    </div>
+  );
+}
+
 
         <div className="px-8 py-8">
           {/* Summary */}
